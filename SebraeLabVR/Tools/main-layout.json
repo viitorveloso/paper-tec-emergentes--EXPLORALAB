@@ -1,0 +1,30 @@
+{
+  "stations": [
+    {
+      "position": [
+        9.4,
+        0,
+        3.5
+      ]
+    },
+    {
+      "position": [
+        9.4,
+        0,
+        7.8
+      ]
+    },
+    {
+      "position": [
+        14.2,
+        0,
+        7.8
+      ]
+    }
+  ],
+  "pavilionMeetingRows": [
+    26.5,
+    32
+  ],
+  "notes": "Expositores da segunda fileira alinhados em Z=7.8; mesas do pavilhao alinhadas aos eixos dos stands."
+}

@@ -1,0 +1,306 @@
+{
+  "landscaping": {
+    "count": 10,
+    "placements": [
+      {
+        "name": "Vaso junto a porta principal - lado A",
+        "position": [
+          17.6,
+          0,
+          4.5
+        ],
+        "scale": 3.6,
+        "yaw": 20
+      },
+      {
+        "name": "Vaso junto a porta principal - lado B",
+        "position": [
+          17.25,
+          0,
+          10.4
+        ],
+        "scale": 3.6,
+        "yaw": 110
+      },
+      {
+        "name": "Vaso frontal esquerdo",
+        "position": [
+          7.8,
+          0,
+          -15.7
+        ],
+        "scale": 4.6,
+        "yaw": 15
+      },
+      {
+        "name": "Vaso frontal intermediario esquerdo",
+        "position": [
+          10,
+          0,
+          -15.7
+        ],
+        "scale": 4,
+        "yaw": 70
+      },
+      {
+        "name": "Vaso frontal intermediario direito",
+        "position": [
+          14,
+          0,
+          -15.7
+        ],
+        "scale": 4,
+        "yaw": 145
+      },
+      {
+        "name": "Vaso frontal direito",
+        "position": [
+          16.25,
+          0,
+          -15.7
+        ],
+        "scale": 4.6,
+        "yaw": 210
+      },
+      {
+        "name": "Vaso lateral junto a fachada",
+        "position": [
+          6.2,
+          0,
+          -12.6
+        ],
+        "scale": 4.4,
+        "yaw": 30
+      },
+      {
+        "name": "Vaso lateral do corredor",
+        "position": [
+          6.2,
+          0,
+          -6.8
+        ],
+        "scale": 4,
+        "yaw": 120
+      },
+      {
+        "name": "Vaso lateral da vitrine",
+        "position": [
+          6.2,
+          0,
+          1.8
+        ],
+        "scale": 4.4,
+        "yaw": 190
+      },
+      {
+        "name": "Vaso lateral do mostruario",
+        "position": [
+          6.2,
+          0,
+          8.2
+        ],
+        "scale": 4,
+        "yaw": 270
+      }
+    ],
+    "notes": "Vasos de 1,15 a 1,32 m. Acesso central frontal entre x=10,5 e x=13,5 permanece livre."
+  },
+  "rooms": {
+    "rooms": [
+      {
+        "name": "Sala 01 - Design e artesanato",
+        "bounds": [
+          7.2,
+          11.7,
+          -5.8,
+          -3.35
+        ],
+        "tables": [
+          {
+            "x": 9.5,
+            "z": -4.55,
+            "yaw": 90,
+            "collection": "Design autoral"
+          }
+        ],
+        "arrival": [
+          12.5,
+          0.012,
+          -5.2
+        ]
+      },
+      {
+        "name": "Sala 02 - Criacao e economia local",
+        "bounds": [
+          7.2,
+          11.7,
+          -8.6,
+          -6.05
+        ],
+        "tables": [
+          {
+            "x": 9.5,
+            "z": -7.3,
+            "yaw": 90,
+            "collection": "Ideias que ganham forma"
+          }
+        ],
+        "arrival": [
+          12.5,
+          0.012,
+          -8.1
+        ]
+      },
+      {
+        "name": "Sala 03 - Galeria dos empreendedores",
+        "bounds": [
+          7.2,
+          16.7,
+          -14.7,
+          -9.05
+        ],
+        "tables": [
+          {
+            "x": 9.7,
+            "z": -11.7,
+            "yaw": 0,
+            "collection": "Sabores da nossa terra"
+          },
+          {
+            "x": 14.2,
+            "z": -11.7,
+            "yaw": 0,
+            "collection": "Feito a mao"
+          }
+        ],
+        "arrival": [
+          12,
+          0.012,
+          -10
+        ]
+      }
+    ],
+    "tables": 4,
+    "chairs": 8,
+    "teleportAreas": 4,
+    "source": "Geometria real de Sebrae Lab.fbx."
+  },
+  "exterior": {
+    "stands": [
+      {
+        "number": "01",
+        "position": [
+          3,
+          0,
+          17
+        ],
+        "yaw": -90,
+        "category": "DESIGN & DECORACAO"
+      },
+      {
+        "number": "02",
+        "position": [
+          21,
+          0,
+          17
+        ],
+        "yaw": 90,
+        "category": "MODA & ACESSORIOS"
+      },
+      {
+        "number": "03",
+        "position": [
+          3,
+          0,
+          22.5
+        ],
+        "yaw": -90,
+        "category": "SABORES & ORIGENS"
+      },
+      {
+        "number": "04",
+        "position": [
+          21,
+          0,
+          22.5
+        ],
+        "yaw": 90,
+        "category": "ARTE & SABERES"
+      },
+      {
+        "number": "05",
+        "position": [
+          3,
+          0,
+          28
+        ],
+        "yaw": -90,
+        "category": "CASA & BEM-ESTAR"
+      },
+      {
+        "number": "06",
+        "position": [
+          21,
+          0,
+          28
+        ],
+        "yaw": 90,
+        "category": "CRIACAO & PAPELARIA"
+      },
+      {
+        "number": "07",
+        "position": [
+          3,
+          0,
+          33.5
+        ],
+        "yaw": -90,
+        "category": "TECNOLOGIA & IDEIAS"
+      },
+      {
+        "number": "08",
+        "position": [
+          21,
+          0,
+          33.5
+        ],
+        "yaw": 90,
+        "category": "NEGOCIOS LOCAIS"
+      }
+    ],
+    "footprint": {
+      "min": [
+        -1,
+        0,
+        16
+      ],
+      "max": [
+        25,
+        3.83,
+        42
+      ]
+    },
+    "eventTables": 4,
+    "eventChairs": 16,
+    "centralClearWidth": 3.8
+  },
+  "scene": "Assets/Scenes/Sebrae.unity",
+  "sectors": 4,
+  "mannequins": 2,
+  "activeChairs": 2,
+  "palette": [
+    "Azul",
+    "Branco",
+    "Dourado",
+    "Grafite",
+    "Areia",
+    "Tapete",
+    "PisoNeutro",
+    "ParedeCreme",
+    "TetoBranco",
+    "LuzQuente",
+    "MetalLustre",
+    "Vidro"
+  ],
+  "notes": "Bustos estilizados de alfaiataria. Corredores x=11.05 e z=6.1 preservados. Cenas Sebrae e MostruarioSebrae sincronizadas."
+}

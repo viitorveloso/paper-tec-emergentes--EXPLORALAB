@@ -1,0 +1,55 @@
+{
+  "author": "Artec 3D",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "modifications": "Decimation, rescaling, conversion to Unity mesh assets, texture reduction to 1K.",
+  "models": {
+    "decorative-vase": {
+      "min": [
+        -0.08129256315471138,
+        0,
+        -0.08082271124381692
+      ],
+      "max": [
+        0.08129256315471138,
+        0.4,
+        0.08082271124381692
+      ],
+      "parts": [
+        {
+          "meshGuid": "1524857f199126cebd7ca68949e8dd42",
+          "materialGuid": "4b08a7d1c52651ce68b0a2415e358483",
+          "triangles": 3999
+        },
+        {
+          "meshGuid": "499b96bc2ed345061368fde5b50f4033",
+          "materialGuid": "27c3992fa2651258d24203b0f3af427c",
+          "triangles": 1
+        }
+      ],
+      "source": "https://www.artec3d.com/3d-models/decorative-vase",
+      "sketchfab": "https://sketchfab.com/models/4ebd4b167d3a4a7da1d906f621b7392c"
+    },
+    "houseplant": {
+      "min": [
+        -0.3995421218202011,
+        0,
+        -0.48551759352059853
+      ],
+      "max": [
+        0.3995421218202011,
+        1.15,
+        0.48551759352059853
+      ],
+      "parts": [
+        {
+          "meshGuid": "adf7e6ce01dcd659aa403d6de59630f4",
+          "materialGuid": "3308d782f8b9c5ca75ab04209cfc2144",
+          "triangles": 10000
+        }
+      ],
+      "source": "https://www.artec3d.com/3d-models/houseplant",
+      "sketchfab": "https://sketchfab.com/models/23a0b38312c343b1a977ee5dd8d54f06"
+    }
+  }
+}

@@ -1,32 +1,53 @@
-# Mostruário VR do Sebrae
+# Vitrine Sebrae VR
 
-A cena `Assets/Scenes/MostruarioSebrae.unity` reúne o espaço do Sebrae com três estações de exposição: 3 mesas, 6 cadeiras e 12 objetos de exemplo. Ela é a primeira cena habilitada no build.
+O projeto usa Unity 6.0 (6000.0.83f1), URP e XR Interaction Toolkit/OpenXR. A pasta a abrir no Unity Hub e SebraeLabVR.
 
-Cada estação fica em `Mostruario > Exposicao` e contém `Mesa`, `Cadeiras` e `Produtos`. Os objetos ficam fixos nesta primeira montagem. As amostras incluem canecas, jarra, plantas, livros, porta-lápis e projetor; podem ser substituídas pelos produtos dos empreendedores.
+## Cenas e hierarquia
 
-## Abrir e adaptar
+A cena principal e Assets/Scenes/Sebrae.unity. MostruarioSebrae.unity contem a mesma montagem. Sebrae e a primeira cena habilitada no build.
 
-1. Abra o projeto no Unity **6000.0.83f1**, com uma licença ativa no Unity Hub.
-2. Abra `Assets/Scenes/MostruarioSebrae.unity`, ou use **SebraeLab > Mostruário > Abrir cena**.
-3. Use **SebraeLab > Mostruário > Conferir cena aberta** para conferir as referências importadas.
-4. Entre em Play e confira a aparência, o piso, as colisões e os controles. Depois teste no aparelho real.
+- Mostruario/Exposicao: tres expositores principais e areas existentes de teleporte.
+- Cenografia - Mostruario Sebrae: sinalizacao, vitrine de moda, pavilhao, salas, paisagismo e iluminacao.
+- Salas do corredor - Exposicao: tres salas, quatro mesas, oito cadeiras e colecoes sobre bases de exposicao.
+- Pavilhao externo - Vitrine Sebrae: oito stands individuais, quatro mesas de encontro e palco. O piso fica entre Z=16 e Z=42, com uma passarela de acesso ao predio.
+- Paisagismo - Fachada e entrada: vasos externos; dois modelos de planta da Artec 3D ficam junto a porta principal.
+- Lustre e focos - Salao principal: lustre contemporaneo de dois aros e quatro focos sobre os expositores.
 
-Para mudar uma exposição, edite os filhos de `Produtos`. O tampo está a aproximadamente **0,90 m** do piso. As amostras foram apoiadas usando os limites de seus colliders. Para um novo modelo, ajuste sua escala e a altura até a base encostar no tampo; inclua um collider adequado. Para reorganizar uma estação inteira, mova o grupo da estação. Reposicione também as áreas de `Circulacao VR` para manter os destinos de teleporte livres de móveis.
+Os pisos sao brancos, as paredes usam creme pastel e o teto e branco. Materiais URP em azul, madeira, branco e metal organizam a cenografia. A configuracao Performance URP habilita luzes adicionais, sem sombras adicionais em tempo real.
 
-Os prefabs da montagem estão em `Assets/Mostruario/Prefabs`, com materiais URP próprios em `Assets/Mostruario/Materials`. Eles usam as malhas e texturas do Office Essentials Pack já presente no projeto. Os modelos Kenney recém-copiados em `Assets/Models/FBX format` também estão disponíveis para substituições depois da importação pelo Unity.
+## Abrir e conferir
 
-Ao iniciar, `MostruarioEnvironment` prepara os colliders do prédio, adapta os materiais antigos do FBX para URP e ativa as cinco áreas de teleporte na camada `Teleport` dos Starter Assets. Também desativa as câmeras de modelagem e as cópias de objetos que o FBX contém fora do espaço principal. A cena `Sebrae.unity` e os assets originais foram preservados.
+Abra a cena fora do Play. No menu SebraeLab > Mostruario, use os comandos de enquadramento das salas, pavilhao e paisagismo. O comando de conferir a cena verifica referencias, expositores e stands.
 
-## Óculos e conta
+As mudancas feitas apenas durante Play nao persistem ao sair. Os scripts de editor para atualizacao automatizada so fazem a recarga quando existe um pedido local em Tools/apply-visible-layout.request, arquivo excluido do Git. A recarga preserva uma copia de alteracoes pendentes antes de abrir a cena salva.
 
-A conta solicitada para vincular o aparelho é **kassio.undb@gmail.com**. A vinculação ainda não foi realizada: os óculos não estavam disponíveis, o modelo não foi identificado e não houve acesso à conta. O procedimento depende do fabricante e precisa ser concluído com o aparelho em mãos. Nenhuma senha foi armazenada e nenhum login foi incluído no aplicativo.
+A aparencia foi conferida em imagens renderizadas pelo proprio Unity, com as cenas carregadas fora do Play. Caches e registros locais ficam fora do repositorio. Imagens selecionadas estao em Docs/Previews.
 
-O projeto já contém OpenXR e o XR Origin com controles de VR. Isso não substitui a configuração e o teste do modelo específico. O editor 6000.0.83f1 instalado neste computador contém apenas o módulo Windows; se o aparelho exigir um APK Android, será preciso instalar o módulo Android correspondente antes de gerar esse build.
+Depois da importacao pelo Unity, execute a partir da raiz do repositorio, com Node.js 22 ou superior:
 
-## Verificação desta montagem
+```powershell
+node SebraeLabVR/Tools/validate-elegance.mjs
+node SebraeLabVR/Tools/validate-exterior.mjs
+```
 
-- Código C# compilado contra as bibliotecas instaladas do Unity e XR Interaction Toolkit.
-- Referências dos arquivos, posições de apoio e limites dos móveis conferidos por análise dos arquivos.
-- A abertura automatizada do Unity foi bloqueada por **“No valid Unity Editor license found”**. Portanto, a importação final, a aparência, a execução em Play e o comportamento de VR ainda precisam ser verificados no editor com licença e no aparelho.
+Essas verificacoes conferem referencias dos assets, IDs, contagens e intersecoes de moveis/destinos com os limites geometricos registrados. Nao substituem o teste de navegacao e desempenho no headset. O runtime OpenXR, o modelo do aparelho e os modulos de build devem ser configurados e testados no ambiente de destino.
 
-`Tools/prepare-mostruario.mjs` permite recriar os arquivos desta montagem com Node.js. Ele sobrescreve a cena e as cópias geradas; salve adaptações manuais em outra cena antes de executá-lo. `Tools/mostruario-layout.json` registra as posições e medidas usadas na montagem.
+## Adaptar os produtos
+
+Os itens expostos e os nomes Empreendedor 01 a 08 sao amostras cenograficas. Substitua-os pelos produtos e nomes reais mantendo as bases de apoio, portas e passagens livres. Os tampos das mesas de galeria ficam a 0,90 m. Alguns produtos ficam sobre bases acima do tampo; mantenha o apoio na superficie correta.
+
+As colecoes baixadas incluem:
+
+- Food Kit da Kenney, sob CC0, com malhas leves preparadas para o Unity.
+- Texturas Wood051 e Fabric030 de ambientCG, sob CC0, em 1K.
+- Houseplant e Decorative vase da Artec 3D, tambem publicados no Sketchfab, sob CC BY 4.0. Foram reduzidos para um total de 14000 triangulos no conjunto de modelos e texturas 1K. Ha quatro plantas e tres vasos dessas fontes na montagem.
+
+Os creditos da Artec 3D aparecem no painel de creditos da vitrine e em Assets/Mostruario/ArtecCollection/CREDITS.md. Preserve os creditos, links e avisos de modificacao ao distribuir o projeto. Consulte ASSETS-BAIXADOS.md e as licencas nas pastas dos fornecedores.
+
+## Regenerar a montagem
+
+Tools/refine-showroom.mjs regenera a cenografia das duas cenas usando os modulos de salas, pavilhao, produtos, paisagismo e iluminacao. Ele sobrescreve os elementos gerados: preserve uma copia de suas adaptacoes manuais antes de executar.
+
+Os arquivos *-layout.json e showroom-design.json registram a montagem. building-floorplan.json e a planta extraida de Sebrae Lab.fbx; a conversao de coordenadas usada e (-BlenderX, BlenderZ, -BlenderY).
+
+Os scripts de preparacao de malhas e texturas exigem Blender quando indicado e os downloads originais em Tools/Downloads. Esses downloads e os backups locais nao sao versionados. Os assets finais, materiais, texturas e respectivos arquivos .meta estao incluidos em Assets e permitem abrir o projeto sem executar esses scripts.

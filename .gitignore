@@ -1,2 +1,43 @@
-# Logs locais de compilação e validação do Unity.
-/Logs/
+# Unity caches and local build output.
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/MemoryCaptures/
+**/Recordings/
+**/.vs/
+**/.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+
+# Local downloads, intermediate backups and verification output.
+/SebraeLabVR/Tools/Downloads/
+/SebraeLabVR/Tools/*.bak
+/SebraeLabVR/Tools/*.check.dll
+/SebraeLabVR/Tools/live-*
+/SebraeLabVR/Tools/apply-visible-layout.request
+/SebraeLabVR/Tools/*.png
+!/SebraeLabVR/Tools/building-floorplan.png
+/SebraeLabVR/Tools/*commit-message*
+/SebraeLabVR/Tools/*publish-audit*
+/SebraeLabVR/Assets/Scenes/Sebrae-unsaved-before-reload-*
+
+# Generated installers and device builds.
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.gz

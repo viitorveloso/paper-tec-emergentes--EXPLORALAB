@@ -8,6 +8,7 @@ const root = path.resolve(import.meta.dirname, '..');
 const read = p => fs.readFile(path.join(root, p), 'utf8');
 const guid = p => crypto.createHash('md5').update(`SebraeLab/Mostruario/${p}`).digest('hex');
 const written = [];
+if ((await fs.readFile(path.join(root, 'Assets/Scenes/Sebrae.unity'), 'utf8')).includes('&2000000000')) throw Error('A cena ja possui mostruario. Use refine-showroom.mjs para atualizar a cenografia sem duplicar IDs.');
 async function write(p, text) {
   await fs.mkdir(path.dirname(path.join(root, p)), { recursive: true });
   await fs.writeFile(path.join(root, p), text, 'utf8');

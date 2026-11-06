@@ -1,0 +1,12 @@
+{
+  "AroLustre": {
+    "guid": "79a5493f0cd47176e941084af5f002a2",
+    "vertices": 1536,
+    "triangles": 512
+  },
+  "DifusorLustre": {
+    "guid": "c4f643e1f5d8e73168384fcb3ce45ea6",
+    "vertices": 1536,
+    "triangles": 512
+  }
+}

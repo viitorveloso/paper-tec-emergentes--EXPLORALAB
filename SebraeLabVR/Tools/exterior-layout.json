@@ -1,0 +1,99 @@
+{
+  "stands": [
+    {
+      "number": "01",
+      "position": [
+        3,
+        0,
+        17
+      ],
+      "yaw": -90,
+      "category": "DESIGN & DECORACAO"
+    },
+    {
+      "number": "02",
+      "position": [
+        21,
+        0,
+        17
+      ],
+      "yaw": 90,
+      "category": "MODA & ACESSORIOS"
+    },
+    {
+      "number": "03",
+      "position": [
+        3,
+        0,
+        22.5
+      ],
+      "yaw": -90,
+      "category": "SABORES & ORIGENS"
+    },
+    {
+      "number": "04",
+      "position": [
+        21,
+        0,
+        22.5
+      ],
+      "yaw": 90,
+      "category": "ARTE & SABERES"
+    },
+    {
+      "number": "05",
+      "position": [
+        3,
+        0,
+        28
+      ],
+      "yaw": -90,
+      "category": "CASA & BEM-ESTAR"
+    },
+    {
+      "number": "06",
+      "position": [
+        21,
+        0,
+        28
+      ],
+      "yaw": 90,
+      "category": "CRIACAO & PAPELARIA"
+    },
+    {
+      "number": "07",
+      "position": [
+        3,
+        0,
+        33.5
+      ],
+      "yaw": -90,
+      "category": "TECNOLOGIA & IDEIAS"
+    },
+    {
+      "number": "08",
+      "position": [
+        21,
+        0,
+        33.5
+      ],
+      "yaw": 90,
+      "category": "NEGOCIOS LOCAIS"
+    }
+  ],
+  "footprint": {
+    "min": [
+      -1,
+      0,
+      16
+    ],
+    "max": [
+      25,
+      3.83,
+      42
+    ]
+  },
+  "eventTables": 4,
+  "eventChairs": 16,
+  "centralClearWidth": 3.8
+}

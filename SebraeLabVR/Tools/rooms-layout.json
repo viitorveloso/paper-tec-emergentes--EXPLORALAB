@@ -1,0 +1,80 @@
+{
+  "rooms": [
+    {
+      "name": "Sala 01 - Design e artesanato",
+      "bounds": [
+        7.2,
+        11.7,
+        -5.8,
+        -3.35
+      ],
+      "tables": [
+        {
+          "x": 9.5,
+          "z": -4.55,
+          "yaw": 90,
+          "collection": "Design autoral"
+        }
+      ],
+      "arrival": [
+        12.5,
+        0.012,
+        -5.2
+      ]
+    },
+    {
+      "name": "Sala 02 - Criacao e economia local",
+      "bounds": [
+        7.2,
+        11.7,
+        -8.6,
+        -6.05
+      ],
+      "tables": [
+        {
+          "x": 9.5,
+          "z": -7.3,
+          "yaw": 90,
+          "collection": "Ideias que ganham forma"
+        }
+      ],
+      "arrival": [
+        12.5,
+        0.012,
+        -8.1
+      ]
+    },
+    {
+      "name": "Sala 03 - Galeria dos empreendedores",
+      "bounds": [
+        7.2,
+        16.7,
+        -14.7,
+        -9.05
+      ],
+      "tables": [
+        {
+          "x": 9.7,
+          "z": -11.7,
+          "yaw": 0,
+          "collection": "Sabores da nossa terra"
+        },
+        {
+          "x": 14.2,
+          "z": -11.7,
+          "yaw": 0,
+          "collection": "Feito a mao"
+        }
+      ],
+      "arrival": [
+        12,
+        0.012,
+        -10
+      ]
+    }
+  ],
+  "tables": 4,
+  "chairs": 8,
+  "teleportAreas": 4,
+  "source": "Geometria real de Sebrae Lab.fbx."
+}
