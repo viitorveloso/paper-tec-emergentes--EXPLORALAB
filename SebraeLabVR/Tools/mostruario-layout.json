@@ -1,0 +1,547 @@
+{
+  "scene": "Assets/Scenes/MostruarioSebrae.unity",
+  "tableHeight": 0.9,
+  "stations": [
+    {
+      "name": "01 - Objetos e decoracao",
+      "position": [
+        9.4,
+        0,
+        3.5
+      ]
+    },
+    {
+      "name": "02 - Livros e criacao",
+      "position": [
+        9.4,
+        0,
+        8
+      ]
+    },
+    {
+      "name": "03 - Demonstracao e atendimento",
+      "position": [
+        14.6,
+        0,
+        7
+      ]
+    }
+  ],
+  "assets": {
+    "ConferenceTable": {
+      "min": [
+        -0.610000109604645,
+        -0.00047218999999998346,
+        -1.2146367144999999
+      ],
+      "max": [
+        0.609999990395355,
+        0.93713295,
+        1.2253632855
+      ],
+      "rootTransform": "3881695478753448996",
+      "rootGameObject": "4509613768403488414",
+      "guid": "3b761f53ed496a0366667163b03f6c9f"
+    },
+    "OfficeChair": {
+      "min": [
+        -0.34271988218819277,
+        0.005851150000000027,
+        -0.377754359
+      ],
+      "max": [
+        0.38361193158672713,
+        1.23405885,
+        0.440223841
+      ],
+      "rootTransform": "3204423859770501514",
+      "rootGameObject": "2824801679941595952",
+      "guid": "c862ec4ef1d80edfc8414ab02654b53a"
+    },
+    "Mug": {
+      "min": [
+        -0.07504987489151287,
+        -6.0685989000377666e-9,
+        -0.0739411259483069
+      ],
+      "max": [
+        0.07420104572866998,
+        0.17244789785282502,
+        0.12481555698397999
+      ],
+      "rootTransform": "3720469616557226011",
+      "rootGameObject": "4101112173780443809",
+      "guid": "b33434553d9087704a5c25025b1d211d"
+    },
+    "CoffePot": {
+      "min": [
+        -0.1393354244409359,
+        -4.6000000004038287e-7,
+        -0.13934329365645376
+      ],
+      "max": [
+        0.13933379872910726,
+        0.25343577200000006,
+        0.24104517778135473
+      ],
+      "rootTransform": "3849171699990916794",
+      "rootGameObject": "4476808827924231168",
+      "guid": "ed2d2a35863aa109368107cc653bb783"
+    },
+    "DeskPlant": {
+      "min": [
+        -0.1098976157,
+        0,
+        -0.0935334167
+      ],
+      "max": [
+        0.1081082843,
+        0.2867575,
+        0.09567173329999999
+      ],
+      "rootTransform": "7692636920190884178",
+      "rootGameObject": "7028549092296360936",
+      "guid": "dc5714a709c1d327d3c172f7e47fabea"
+    },
+    "BookOpen": {
+      "min": [
+        -0.14799954698621057,
+        -7.975000000000343e-7,
+        -0.21904057955237524
+      ],
+      "max": [
+        0.1480005900681459,
+        0.0205272475,
+        0.2190609345385618
+      ],
+      "rootTransform": "7450665450781781327",
+      "rootGameObject": "7795102498530785269",
+      "guid": "05512f6fdccfbeef31966f9d5116ee21"
+    },
+    "BookPile1": {
+      "min": [
+        -0.1713690484,
+        -0.016874431999999998,
+        -0.12938839
+      ],
+      "max": [
+        0.1854753816,
+        0.069972508,
+        0.36304453000000003
+      ],
+      "rootTransform": "2599738593789484242",
+      "rootGameObject": "3413711846715311720",
+      "guid": "b46d4228fa7fba727147b9ce47260771"
+    },
+    "PenHolder": {
+      "min": [
+        -0.051202817956162806,
+        -1.8189893e-13,
+        -0.05121203526199793
+      ],
+      "max": [
+        0.05120442638846996,
+        0.1041956599998181,
+        0.05119083508272605
+      ],
+      "rootTransform": "697422240011838758",
+      "rootGameObject": "208974801609211804",
+      "guid": "45d515f38180870414fc6098f5ad312d"
+    },
+    "Projector": {
+      "min": [
+        -0.1928304572,
+        5.0000000112460086e-9,
+        -0.16046872080000002
+      ],
+      "max": [
+        0.1895897228,
+        0.164542915,
+        0.1672645592
+      ],
+      "rootTransform": "2275576742671869916",
+      "rootGameObject": "1504105867294326118",
+      "guid": "30c38d35cef31405cd39a16165deb4cc"
+    }
+  },
+  "placements": [
+    {
+      "model": "ConferenceTable",
+      "name": "Mesa",
+      "station": "01 - Objetos e decoracao",
+      "position": [
+        0,
+        0.0004533,
+        0
+      ],
+      "worldOrigin": [
+        9.4,
+        0.0004533,
+        3.5
+      ],
+      "supportHeight": 0,
+      "scale": 0.9598923487130201,
+      "yaw": 0
+    },
+    {
+      "model": "OfficeChair",
+      "name": "Cadeira - lado A",
+      "station": "01 - Objetos e decoracao",
+      "position": [
+        0,
+        -0.0058512,
+        -1.75
+      ],
+      "worldOrigin": [
+        9.4,
+        -0.0058512,
+        1.75
+      ],
+      "supportHeight": 0,
+      "scale": 1,
+      "yaw": 0
+    },
+    {
+      "model": "OfficeChair",
+      "name": "Cadeira - lado B",
+      "station": "01 - Objetos e decoracao",
+      "position": [
+        0,
+        -0.0058512,
+        1.75
+      ],
+      "worldOrigin": [
+        9.4,
+        -0.0058512,
+        5.25
+      ],
+      "supportHeight": 0,
+      "scale": 1,
+      "yaw": 180
+    },
+    {
+      "model": "Mug",
+      "name": "01 - Caneca",
+      "station": "01 - Objetos e decoracao",
+      "position": [
+        -0.22,
+        0.903,
+        -0.55
+      ],
+      "worldOrigin": [
+        9.18,
+        0.903,
+        2.95
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": -15
+    },
+    {
+      "model": "CoffePot",
+      "name": "02 - Jarra",
+      "station": "01 - Objetos e decoracao",
+      "position": [
+        0.22,
+        0.9030005,
+        -0.55
+      ],
+      "worldOrigin": [
+        9.620000000000001,
+        0.9030005,
+        2.95
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": 20
+    },
+    {
+      "model": "DeskPlant",
+      "name": "03 - Planta",
+      "station": "01 - Objetos e decoracao",
+      "position": [
+        -0.22,
+        0.903,
+        0.55
+      ],
+      "worldOrigin": [
+        9.18,
+        0.903,
+        4.05
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": -15
+    },
+    {
+      "model": "Mug",
+      "name": "04 - Caneca",
+      "station": "01 - Objetos e decoracao",
+      "position": [
+        0.22,
+        0.903,
+        0.55
+      ],
+      "worldOrigin": [
+        9.620000000000001,
+        0.903,
+        4.05
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": 20
+    },
+    {
+      "model": "ConferenceTable",
+      "name": "Mesa",
+      "station": "02 - Livros e criacao",
+      "position": [
+        0,
+        0.0004533,
+        0
+      ],
+      "worldOrigin": [
+        9.4,
+        0.0004533,
+        8
+      ],
+      "supportHeight": 0,
+      "scale": 0.9598923487130201,
+      "yaw": 0
+    },
+    {
+      "model": "OfficeChair",
+      "name": "Cadeira - lado A",
+      "station": "02 - Livros e criacao",
+      "position": [
+        0,
+        -0.0058512,
+        -1.75
+      ],
+      "worldOrigin": [
+        9.4,
+        -0.0058512,
+        6.25
+      ],
+      "supportHeight": 0,
+      "scale": 1,
+      "yaw": 0
+    },
+    {
+      "model": "OfficeChair",
+      "name": "Cadeira - lado B",
+      "station": "02 - Livros e criacao",
+      "position": [
+        0,
+        -0.0058512,
+        1.75
+      ],
+      "worldOrigin": [
+        9.4,
+        -0.0058512,
+        9.75
+      ],
+      "supportHeight": 0,
+      "scale": 1,
+      "yaw": 180
+    },
+    {
+      "model": "BookOpen",
+      "name": "01 - Livro aberto",
+      "station": "02 - Livros e criacao",
+      "position": [
+        -0.22,
+        0.9030008,
+        -0.55
+      ],
+      "worldOrigin": [
+        9.18,
+        0.9030008,
+        7.45
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": -15
+    },
+    {
+      "model": "BookPile1",
+      "name": "02 - Livros",
+      "station": "02 - Livros e criacao",
+      "position": [
+        0.22,
+        0.9198744,
+        -0.55
+      ],
+      "worldOrigin": [
+        9.620000000000001,
+        0.9198744,
+        7.45
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": 20
+    },
+    {
+      "model": "PenHolder",
+      "name": "03 - Porta-lapis",
+      "station": "02 - Livros e criacao",
+      "position": [
+        -0.22,
+        0.903,
+        0.55
+      ],
+      "worldOrigin": [
+        9.18,
+        0.903,
+        8.55
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": -15
+    },
+    {
+      "model": "DeskPlant",
+      "name": "04 - Planta",
+      "station": "02 - Livros e criacao",
+      "position": [
+        0.22,
+        0.903,
+        0.55
+      ],
+      "worldOrigin": [
+        9.620000000000001,
+        0.903,
+        8.55
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": 20
+    },
+    {
+      "model": "ConferenceTable",
+      "name": "Mesa",
+      "station": "03 - Demonstracao e atendimento",
+      "position": [
+        0,
+        0.0004533,
+        0
+      ],
+      "worldOrigin": [
+        14.6,
+        0.0004533,
+        7
+      ],
+      "supportHeight": 0,
+      "scale": 0.9598923487130201,
+      "yaw": 0
+    },
+    {
+      "model": "OfficeChair",
+      "name": "Cadeira - lado A",
+      "station": "03 - Demonstracao e atendimento",
+      "position": [
+        0,
+        -0.0058512,
+        -1.75
+      ],
+      "worldOrigin": [
+        14.6,
+        -0.0058512,
+        5.25
+      ],
+      "supportHeight": 0,
+      "scale": 1,
+      "yaw": 0
+    },
+    {
+      "model": "OfficeChair",
+      "name": "Cadeira - lado B",
+      "station": "03 - Demonstracao e atendimento",
+      "position": [
+        0,
+        -0.0058512,
+        1.75
+      ],
+      "worldOrigin": [
+        14.6,
+        -0.0058512,
+        8.75
+      ],
+      "supportHeight": 0,
+      "scale": 1,
+      "yaw": 180
+    },
+    {
+      "model": "Projector",
+      "name": "01 - Projetor",
+      "station": "03 - Demonstracao e atendimento",
+      "position": [
+        -0.22,
+        0.903,
+        -0.55
+      ],
+      "worldOrigin": [
+        14.379999999999999,
+        0.903,
+        6.45
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": -15
+    },
+    {
+      "model": "Mug",
+      "name": "02 - Caneca",
+      "station": "03 - Demonstracao e atendimento",
+      "position": [
+        0.22,
+        0.903,
+        -0.55
+      ],
+      "worldOrigin": [
+        14.82,
+        0.903,
+        6.45
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": 20
+    },
+    {
+      "model": "BookOpen",
+      "name": "03 - Livro aberto",
+      "station": "03 - Demonstracao e atendimento",
+      "position": [
+        -0.22,
+        0.9030008,
+        0.55
+      ],
+      "worldOrigin": [
+        14.379999999999999,
+        0.9030008,
+        7.55
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": -15
+    },
+    {
+      "model": "PenHolder",
+      "name": "04 - Porta-lapis",
+      "station": "03 - Demonstracao e atendimento",
+      "position": [
+        0.22,
+        0.903,
+        0.55
+      ],
+      "worldOrigin": [
+        14.82,
+        0.903,
+        7.55
+      ],
+      "supportHeight": 0.903,
+      "scale": 1,
+      "yaw": 20
+    }
+  ]
+}
