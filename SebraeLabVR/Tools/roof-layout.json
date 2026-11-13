@@ -1,0 +1,105 @@
+{
+  "reference": "decfeb30-93c2-48c7-9676-3a44349d9244.jfif",
+  "building": "Multicenter, not the green annex",
+  "bounds": {
+    "min": [
+      -73.45,
+      8.15,
+      -14.9
+    ],
+    "max": [
+      4.45,
+      9.4,
+      27.3
+    ]
+  },
+  "period": 0.32,
+  "rise": 1.1,
+  "nativeMeshes": [
+    {
+      "path": "Assets/MulticenterRoof/Meshes/Cobertura-0.asset",
+      "vertices": 14640,
+      "min": [
+        -73.45,
+        8.15300070810395,
+        -14.9
+      ],
+      "max": [
+        -60.46666666666667,
+        9.306999999999999,
+        27.300000000000004
+      ]
+    },
+    {
+      "path": "Assets/MulticenterRoof/Meshes/Cobertura-1.asset",
+      "vertices": 14640,
+      "min": [
+        -60.46666666666667,
+        8.153000388535169,
+        -14.9
+      ],
+      "max": [
+        -47.483333333333334,
+        9.306999952404341,
+        27.300000000000004
+      ]
+    },
+    {
+      "path": "Assets/MulticenterRoof/Meshes/Cobertura-2.asset",
+      "vertices": 14640,
+      "min": [
+        -47.483333333333334,
+        8.153248316512684,
+        -14.9
+      ],
+      "max": [
+        -34.5,
+        9.306724522640714,
+        27.300000000000004
+      ]
+    },
+    {
+      "path": "Assets/MulticenterRoof/Meshes/Cobertura-3.asset",
+      "vertices": 14640,
+      "min": [
+        -34.5,
+        8.153000164156335,
+        -14.9
+      ],
+      "max": [
+        -21.516666666666666,
+        9.306999809617533,
+        27.300000000000004
+      ]
+    },
+    {
+      "path": "Assets/MulticenterRoof/Meshes/Cobertura-4.asset",
+      "vertices": 14640,
+      "min": [
+        -21.516666666666666,
+        8.153544538599313,
+        -14.9
+      ],
+      "max": [
+        -8.533333333333331,
+        9.306415693462633,
+        27.300000000000004
+      ]
+    },
+    {
+      "path": "Assets/MulticenterRoof/Meshes/Cobertura-5.asset",
+      "vertices": 14640,
+      "min": [
+        -8.533333333333331,
+        8.153000034968242,
+        -14.9
+      ],
+      "max": [
+        4.450000000000003,
+        9.30699957164008,
+        27.300000000000004
+      ]
+    }
+  ],
+  "notes": "White corrugated external roof guided by aerial photo. Adapted dimensions and curvature; no interior ceiling inferred from the exterior photograph."
+}

@@ -1,0 +1,1 @@
+import fs from 'node:fs';const p='SebraeLabVR/Tools/install-tech-expo.mjs';let s=fs.readFileSync(p,'utf8');if(!s.includes('exportTechReview')){s="import { exportTechReview } from './tech-review-helpers.mjs';\n"+s;s=s.replace('console.log(`TECH_EXPO_INSTALLED:','exportTechReview({objects,stations,specs,write,read});\nconsole.log(`TECH_EXPO_INSTALLED:');fs.writeFileSync(p,s);}

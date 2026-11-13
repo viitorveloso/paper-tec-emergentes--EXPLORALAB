@@ -1,0 +1,42 @@
+[
+  {
+    "key": "CentroConvencoes",
+    "text": "CENTRO DE CONVENÇÕES",
+    "section": "Multicenter - edificio principal",
+    "c": [
+      -54,
+      4.25,
+      -15.512
+    ],
+    "size": [
+      5.7,
+      0.25
+    ],
+    "color": [
+      0.95,
+      0.96,
+      0.95
+    ],
+    "texture": "Assets/CampusSebrae/Textures/CentroConvencoes.png"
+  },
+  {
+    "key": "Entrada",
+    "text": "PEDRO NEIVA DE SANTANA",
+    "section": "Multicenter - edificio principal",
+    "c": [
+      -37.5,
+      4.4,
+      -16.87
+    ],
+    "size": [
+      9.2,
+      0.3
+    ],
+    "color": [
+      0.95,
+      0.96,
+      0.95
+    ],
+    "texture": "Assets/CampusSebrae/Textures/Entrada.png"
+  }
+]

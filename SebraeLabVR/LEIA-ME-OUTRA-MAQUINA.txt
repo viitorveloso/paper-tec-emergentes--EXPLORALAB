@@ -1,0 +1,65 @@
+﻿SEBRAELAB / MULTICENTER - PROJETO PARA OUTRA MAQUINA
+Destino: Meta Quest 2, aplicativo Android nos proprios oculos.
+Versao do projeto: Unity 6000.0.83f1 (dacc44548933).
+
+1. Copie o ZIP inteiro para a outra maquina e extraia em um caminho curto.
+   Exemplo Windows: C:\Projetos\SebraeLabVR
+   Nao abra os arquivos diretamente de dentro do ZIP.
+   Preserve Assets, todos os arquivos .meta, Packages e ProjectSettings.
+
+2. Instale o Unity Hub: https://unity.com/download
+   Entre com sua propria conta e ative uma licenca adequada ao seu uso.
+   Instale o editor EXATO 6000.0.83f1 pelo Hub/arquivo oficial:
+   https://unity.com/releases/editor/whats-new/6000.0.83f1
+   Inclua Android Build Support, Android SDK & NDK Tools e OpenJDK.
+   A instalacao pode exigir autorizacao do administrador da outra maquina.
+
+3. No Hub, adicione o projeto existente escolhendo a pasta SebraeLabVR,
+   que contem Assets, Packages e ProjectSettings. Aguarde a importacao.
+   A internet e necessaria para baixar os pacotes declarados em Packages.
+   Abra Assets/Scenes/Sebrae.unity. Essa e a cena principal do campus.
+   Assets/Scenes/MostruarioSebrae.unity e uma cena alternativa.
+   ABRIR-PROJETO.cmd tambem abre o projeto se o editor estiver no caminho padrao.
+
+4. Para gerar o aplicativo, selecione Android em File > Build Profiles
+   e aguarde a troca da plataforma. Depois use o menu:
+   SebraeLab > Quest 2 > Configurar Android
+   SebraeLab > Quest 2 > Gerar APK de desenvolvimento
+   Saida esperada: Builds/Quest2/SebraeLabVR-Quest2.apk.
+   Configuracao preparada: ARM64, IL2CPP, ASTC, OpenXR e cena Sebrae.
+
+   Alternativa Windows: feche o projeto e execute RETOMAR-QUEST2.cmd.
+   Ele instala a Unity CLI oficial se necessario, instala o editor e modulos,
+   e tenta compilar o APK. Erros interrompem a sequencia.
+   A instalacao automatica nao ativa sua licenca Unity.
+   Editor em outro local: no PowerShell da pasta do projeto execute:
+   powershell -NoProfile -ExecutionPolicy Bypass -File Tools/VRSetup/Quest2.ps1 -Action Build -EditorPath "D:\Unity\6000.0.83f1\Editor\Unity.exe"
+   Em macOS/Linux use o Hub e os menus do editor; os arquivos .cmd/.ps1 sao Windows.
+
+5. No Quest 2, habilite o modo de desenvolvedor pela sua conta Meta.
+   Conecte por USB com cabo de dados e aceite a depuracao USB nos oculos.
+   Se necessario, instale o driver ADB oficial da Meta no Windows.
+   Com o SDK do editor, confirme o aparelho com adb devices -l e instale:
+   adb install -r "Builds/Quest2/SebraeLabVR-Quest2.apk"
+   O comando adb deve ser executado a partir da pasta do projeto, com o
+   platform-tools do SDK no PATH ou usando o caminho completo de adb.exe.
+   Abra o aplicativo no Quest e teste entrada, locomocao, teleporte e desempenho.
+
+O QUE ESTE PACOTE CONFIRMA
+- Inclui cenas, objetos, texturas, materiais, scripts, configuracoes e metadados.
+- Inclui guia e comandos que localizam o projeto pela propria pasta.
+- INTEGRIDADE-SHA256.json permite conferir os arquivos transferidos.
+- Nao inclui instaladores incompletos, contas, licencas, Library ou caches.
+
+O QUE AINDA PRECISA SER VALIDADO NA OUTRA MAQUINA
+O editor nao foi instalado/executado neste computador por falta da senha de
+administrador. Portanto, importacao/compilacao Unity, APK, execucao, controles,
+conforto e desempenho no Quest 2 ainda nao foram confirmados.
+O pacote e um projeto editavel preparado para transferencia, nao um APK pronto.
+Nao execute os geradores antigos de Tools para abrir o projeto: as cenas e
+objetos ja estao salvos. Alguns geradores restauram backups anteriores.
+
+Fontes oficiais:
+https://docs.unity.com/en-us/engine/6000.0/manual/platform-specific/android/getting-started/sdksetup
+https://docs.unity.com/en-us/hub
+https://developers.meta.com/vr/documentation/native/android/mobile-device-setup/

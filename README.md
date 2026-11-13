@@ -55,3 +55,15 @@ node SebraeLabVR/Tools/validate-exterior.mjs
 As ferramentas em **SebraeLabVR/Tools** registram as posições e permitem regenerar a montagem. Elas sobrescrevem elementos gerados; preserve adaptações manuais em uma cópia da cena antes de executá-las. Os scripts de preparação a partir de fontes externas exigem os downloads originais e, quando indicado, o Blender; esses arquivos de download ficam fora do Git.
 
 Repositorio do paper da disciplina de Tecnologias Emergentes, 5º período.
+## Multicenter, SebraeLab e Quest 2
+
+A montagem agora inclui a fachada do Multicenter, o anexo SebraeLab verde com exposição tecnológica e o interior do pavilhão inspirado nas referências fotográficas. A escala foi adaptada porque não foram fornecidas medidas da planta.
+
+Para abrir em outro computador, siga [LEIA-ME-OUTRA-MAQUINA.txt](SebraeLabVR/LEIA-ME-OUTRA-MAQUINA.txt). Use Unity **6000.0.83f1**, Android Build Support, SDK/NDK e OpenJDK. Os comandos Windows localizam o projeto pela própria pasta:
+
+- `SebraeLabVR/ABRIR-PROJETO.cmd`: abre o editor instalado.
+- `SebraeLabVR/RETOMAR-QUEST2.cmd`: prepara as dependências e tenta gerar o APK de desenvolvimento.
+
+As novas alterações passaram por verificações dos arquivos de geometria e navegação. A importação/compilação dessas alterações no Unity e o teste no Quest 2 ainda estão pendentes: a instalação do editor neste computador exigiu uma senha de administrador indisponível. Nenhum APK desta versão foi validado.
+
+Detalhes: [campus](SebraeLabVR/CAMPUS-SEBRAE.md), [exposição tecnológica](SebraeLabVR/TECH-EXPO.md), [interior do Multicenter](SebraeLabVR/INTERIOR-MULTICENTER.md) e [preparação do Quest 2](SebraeLabVR/QUEST2-SETUP.md).

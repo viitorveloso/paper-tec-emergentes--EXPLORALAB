@@ -41,3 +41,12 @@ Thumbs.db
 *.aab
 *.unitypackage
 *.unitypackage.gz
+# Local setup state and generated verification output.
+*.log
+*.pid
+/SebraeLabVR/Tools/*Backup/
+/SebraeLabVR/Tools/VRSetup/*.bak
+/SebraeLabVR/Tools/VRSetup/setup-status.json
+/SebraeLabVR/Tools/VRSetup/Continue-Quest2Setup.ps1
+/SebraeLabVR/Tools/VRSetup/editor-validation.txt
+/SebraeLabVR/INTEGRIDADE-SHA256.json

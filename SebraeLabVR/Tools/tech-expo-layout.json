@@ -1,0 +1,221 @@
+{
+  "stations": [
+    {
+      "name": "01 - Computacao e IA",
+      "position": [
+        9.4,
+        0,
+        3.5
+      ],
+      "theme": "IA"
+    },
+    {
+      "name": "02 - Criacao digital",
+      "position": [
+        9.4,
+        0,
+        7.8
+      ],
+      "theme": "Criacao"
+    },
+    {
+      "name": "03 - Experiencias imersivas",
+      "position": [
+        14.2,
+        0,
+        7.8
+      ],
+      "theme": "Imersao"
+    }
+  ],
+  "placements": [
+    {
+      "name": "computerScreen",
+      "position": [
+        0,
+        0.927,
+        0.5
+      ],
+      "parent": "01 - Computacao e IA"
+    },
+    {
+      "name": "computerKeyboard",
+      "position": [
+        -0.06,
+        0.927,
+        0.05
+      ],
+      "parent": "01 - Computacao e IA"
+    },
+    {
+      "name": "computerMouse",
+      "position": [
+        0.31,
+        0.934,
+        0.05
+      ],
+      "parent": "01 - Computacao e IA"
+    },
+    {
+      "name": "computerScreen",
+      "position": [
+        0,
+        0.927,
+        0.5
+      ],
+      "parent": "02 - Criacao digital"
+    },
+    {
+      "name": "computerKeyboard",
+      "position": [
+        -0.06,
+        0.927,
+        0.05
+      ],
+      "parent": "02 - Criacao digital"
+    },
+    {
+      "name": "computerMouse",
+      "position": [
+        0.31,
+        0.934,
+        0.05
+      ],
+      "parent": "02 - Criacao digital"
+    },
+    {
+      "name": "laptop",
+      "position": [
+        0,
+        0.935,
+        -0.55
+      ],
+      "parent": "02 - Criacao digital"
+    }
+  ],
+  "objects": 255,
+  "nativeMeshes": [
+    {
+      "path": "Assets/TechExpo/Meshes/computerScreen-metalDark.asset",
+      "vertices": 420,
+      "min": [
+        -0.325,
+        0,
+        -0.08607673267326657
+      ],
+      "max": [
+        0.325,
+        0.48711796642627053,
+        0.08607673267326657
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/computerScreen-metal.asset",
+      "vertices": 12,
+      "min": [
+        -0.31378446756712713,
+        0.09200868119219296,
+        -0.02679939035570258
+      ],
+      "max": [
+        0.313784499017029,
+        0.47501339485800265,
+        0.02702841186896413
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/computerKeyboard-metalDark.asset",
+      "vertices": 168,
+      "min": [
+        -0.22,
+        0,
+        -0.09214117647058796
+      ],
+      "max": [
+        0.22,
+        0.04296470588235294,
+        0.09214117647058796
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/computerKeyboard-metalMedium.asset",
+      "vertices": 24,
+      "min": [
+        -0.19024386959603118,
+        0.016546603827072997,
+        -0.06630715804394076
+      ],
+      "max": [
+        0.19024388518781007,
+        0.03753086180014174,
+        0.03345800850460637
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/computerMouse-metalDark.asset",
+      "vertices": 426,
+      "min": [
+        -0.0375,
+        0,
+        -0.06421312122736418
+      ],
+      "max": [
+        0.0375,
+        0.035571428571428566,
+        0.06421312122736418
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/laptop-metalDark.asset",
+      "vertices": 360,
+      "min": [
+        -0.19,
+        0,
+        -0.17277419696969698
+      ],
+      "max": [
+        0.19,
+        0.23290746969696968,
+        0.17277419696969698
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/laptop-metal.asset",
+      "vertices": 12,
+      "min": [
+        -0.16447234848484849,
+        0.042302449242424246,
+        0.07016858333333333
+      ],
+      "max": [
+        0.1644724060606061,
+        0.20960497727272728,
+        0.1450065606060606
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/laptop-metalMedium.asset",
+      "vertices": 36,
+      "min": [
+        -0.15878098484848485,
+        0.019,
+        -0.14543836439393942
+      ],
+      "max": [
+        0.1530649931818182,
+        0.019,
+        0.02636048484848485
+      ]
+    }
+  ],
+  "hiddenOriginalObjects": [
+    "2000000015",
+    "2000000035",
+    "2000000055",
+    "2100000152"
+  ],
+  "rootId": 2400000001,
+  "source": "https://kenney.nl/assets/furniture-kit",
+  "license": "CC0",
+  "notes": "Existing local OBJ models reused. Additional hardware is custom scenery; screens are static demos, not working devices. Unity/headset validation pending."
+}

@@ -1,0 +1,5 @@
+CAMPUS_VALIDATED
+45 meshes; 172582 triangles.
+Both scene originals preserved. Buffer sizes, indices, bounds and local references checked.
+Previews generated with software rasterizer from the saved geometry, not by Unity.
+Unity import, appearance and headset checks remain pending.
