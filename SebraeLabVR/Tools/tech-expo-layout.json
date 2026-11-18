@@ -39,6 +39,15 @@
       "parent": "01 - Computacao e IA"
     },
     {
+      "name": "Tela demonstrativa - IA",
+      "position": [
+        0,
+        1.23,
+        0.439
+      ],
+      "parent": "01 - Computacao e IA"
+    },
+    {
       "name": "computerKeyboard",
       "position": [
         -0.06,
@@ -62,6 +71,15 @@
         0,
         0.927,
         0.5
+      ],
+      "parent": "02 - Criacao digital"
+    },
+    {
+      "name": "Tela demonstrativa - Criacao",
+      "position": [
+        0,
+        1.23,
+        0.439
       ],
       "parent": "02 - Criacao digital"
     },
@@ -91,9 +109,45 @@
         -0.55
       ],
       "parent": "02 - Criacao digital"
+    },
+    {
+      "name": "Headset",
+      "position": [
+        0,
+        0.99,
+        -0.38
+      ],
+      "parent": "03 - Experiencias imersivas"
+    },
+    {
+      "name": "Tela demonstrativa - Criacao",
+      "position": [
+        0,
+        1.75,
+        0.58
+      ],
+      "parent": "04 - Prototipagem e IoT"
+    },
+    {
+      "name": "Drone",
+      "position": [
+        0.6,
+        0.94,
+        0.08
+      ],
+      "parent": "04 - Prototipagem e IoT"
+    },
+    {
+      "name": "Impressora",
+      "position": [
+        1.055,
+        0.94,
+        -0.46
+      ],
+      "parent": "04 - Prototipagem e IoT"
     }
   ],
-  "objects": 255,
+  "objects": 249,
   "nativeMeshes": [
     {
       "path": "Assets/TechExpo/Meshes/computerScreen-metalDark.asset",
@@ -206,6 +260,132 @@
         0.019,
         0.02636048484848485
       ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/Drone-0.asset",
+      "vertices": 13692,
+      "min": [
+        -0.32,
+        0,
+        -0.4358937160943121
+      ],
+      "max": [
+        0.32,
+        0.2316301203443922,
+        0.4358937160943121
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/Headset-0.asset",
+      "vertices": 1626,
+      "min": [
+        -0.13054252680141734,
+        0.0027007473501238608,
+        -0.10780011886348131
+      ],
+      "max": [
+        0.1349093440507296,
+        0.09398114450510878,
+        0.10780011886348131
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/Headset-1.asset",
+      "vertices": 528,
+      "min": [
+        0.0035497296417875677,
+        0,
+        -0.10101514255526343
+      ],
+      "max": [
+        0.08934338921020517,
+        0.09866263929430029,
+        0.10101514255526343
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/Headset-2.asset",
+      "vertices": 1698,
+      "min": [
+        0.014289488352132385,
+        0.0012639175399731268,
+        -0.09750261920906497
+      ],
+      "max": [
+        0.11491086844831769,
+        0.09649592430563012,
+        0.09750261920906497
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/Headset-3.asset",
+      "vertices": 36,
+      "min": [
+        0.04417958255965627,
+        0.027945905442136453,
+        -0.06515985853491557
+      ],
+      "max": [
+        0.04620099398381792,
+        0.07243540843910953,
+        0.06600856565675534
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/Headset-4.asset",
+      "vertices": 18,
+      "min": [
+        0.135,
+        0.06883074489428724,
+        -0.006459299618987077
+      ],
+      "max": [
+        0.135,
+        0.08470749895521941,
+        0.007017207131907705
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/Headset-5.asset",
+      "vertices": 852,
+      "min": [
+        -0.135,
+        0.007630513418095935,
+        -0.1091324967100066
+      ],
+      "max": [
+        0.12079285969204946,
+        0.12624574583128528,
+        0.1091324967100066
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/Impressora-0.asset",
+      "vertices": 546,
+      "min": [
+        -0.18,
+        0,
+        -0.2579646889938722
+      ],
+      "max": [
+        0.18,
+        0.2702123173089019,
+        0.2579646889938722
+      ]
+    },
+    {
+      "path": "Assets/TechExpo/Meshes/TelaFrontal.asset",
+      "vertices": 6,
+      "min": [
+        -0.5,
+        -0.3,
+        0
+      ],
+      "max": [
+        0.5,
+        0.3,
+        0
+      ]
     }
   ],
   "hiddenOriginalObjects": [
@@ -217,5 +397,5 @@
   "rootId": 2400000001,
   "source": "https://kenney.nl/assets/furniture-kit",
   "license": "CC0",
-  "notes": "Existing local OBJ models reused. Additional hardware is custom scenery; screens are static demos, not working devices. Unity/headset validation pending."
+  "notes": "Local OBJ and downloaded static GLB hardware. See Assets/TechExpo/CREDITS.md. Screens are static."
 }

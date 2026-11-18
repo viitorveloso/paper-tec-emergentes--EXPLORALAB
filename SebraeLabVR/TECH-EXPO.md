@@ -23,3 +23,8 @@ O gerador install-tech-expo.mjs atualiza somente a faixa de IDs 2400000000. Outr
 A foto JFIF mostra a cobertura externa do Multicenter, não o teto interno do anexo verde. Foi acrescentada uma cobertura metálica branca ondulada em Assets/MulticenterRoof, sem alterar o teto interno do laboratório. Dimensões e curvatura adaptadas; parâmetros em Tools/roof-layout.json. Cópias anteriores em Tools/RoofBackup.
 
 Na exposição, o gabinete da estação de criação foi posicionado sob a mesa para liberar o notebook. Foram acrescentados módulo de sensores/IoT, roteador com antenas e mousepads. As prévias tech-exposicao-previa.png e tech-prototipagem-previa.png foram renderizadas por software usando os objetos gerados e uma reconstrução simplificada das mesas/paredes para contexto. Não são capturas do Unity nem reproduzem todo o mobiliário original. A captura real continua disponível no menu de editor.
+
+
+## Modelos da exposição importados
+
+O drone de inspeção e o headset VR substituem as aproximações anteriores. Uma impressora de mesa acompanha a impressora 3D e o módulo IoT no balcão de prototipagem. Os arquivos e as licenças estão registrados em Assets/TechExpo/CREDITS.md.
